@@ -1,5 +1,6 @@
 package SeminarsOOP.StudentApp;
 
+import SeminarsOOP.StudentApp.Controller.AccountControllers;
 import SeminarsOOP.StudentApp.Domen.PersonComparator;
 import SeminarsOOP.StudentApp.Domen.Student;
 import SeminarsOOP.StudentApp.Domen.StudentGroup;
@@ -45,5 +46,9 @@ public class App {
         Teacher t2 = new Teacher("Татьяна", 57, "Docent");
 
         System.out.println(new PersonComparator<Student>().compare(s1, s3));
+
+        AccountControllers controller = new AccountControllers();
+        controller.paySalary(t1, 50000);
+        controller.paySalary(s1, 50000);
     }
 }
