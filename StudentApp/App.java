@@ -1,7 +1,9 @@
 package SeminarsOOP.StudentApp;
 
+import SeminarsOOP.StudentApp.Domen.PersonComparator;
 import SeminarsOOP.StudentApp.Domen.Student;
 import SeminarsOOP.StudentApp.Domen.StudentGroup;
+import SeminarsOOP.StudentApp.Domen.Teacher;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -39,5 +41,9 @@ public class App {
         for (Student std : group4580.getGroup()) {
             System.out.println(std);
         }
+        Teacher t1 = new Teacher("Галина", 55, "Docent");
+        Teacher t2 = new Teacher("Татьяна", 57, "Docent");
+
+        System.out.println(new PersonComparator<Student>().compare(s1, s3));
     }
 }
