@@ -49,6 +49,6 @@ public class App {
 
         AccountControllers controller = new AccountControllers();
         controller.paySalary(t1, 50000);
-        controller.paySalary(s1, 50000);
+        controller.paySalary(t2, 50000);
     }
 }

@@ -2,7 +2,7 @@ package SeminarsOOP.StudentApp.Domen;
 
 import java.util.Comparator; //пример дженерика
 
-public class PersonComparator<T> implements Comparator<T> {
+public class PersonComparator<T extends Person> implements Comparator<T> {
     @Override
     public int compare(T o1, T o2) {
         int res = o1.getName().compareTo(o2.getName());
