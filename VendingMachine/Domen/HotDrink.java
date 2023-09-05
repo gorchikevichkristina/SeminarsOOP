@@ -1,4 +1,4 @@
-package OOP.VendingMachine.Domen;
+package SeminarsOOP.VendingMachine.Domen;
 /**
 Урок 1. Принципы ООП: Инкапсуляция, наследование, полиморфизм
 Создать наследника Product реализовать класс ГорячийНапиток(Hot Drink) с дополнительным полем int температура.

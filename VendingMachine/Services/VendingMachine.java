@@ -1,8 +1,8 @@
-package OOP.VendingMachine.Services;
+package SeminarsOOP.VendingMachine.Services;
 
 import java.util.List;
 
-import OOP.VendingMachine.Domen.Product;
+import SeminarsOOP.VendingMachine.Domen.Product;
 
 public class VendingMachine {
     private Holder holder;

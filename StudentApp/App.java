@@ -1,5 +1,7 @@
-import OOP.StudentApp.Domen.Student;
-import OOP.StudentApp.Domen.StudentGroup;
+package SeminarsOOP.StudentApp;
+
+import SeminarsOOP.StudentApp.Domen.Student;
+import SeminarsOOP.StudentApp.Domen.StudentGroup;
 
 import java.util.ArrayList;
 import java.util.Collections;

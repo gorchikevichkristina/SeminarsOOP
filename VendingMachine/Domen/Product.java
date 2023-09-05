@@ -1,4 +1,4 @@
-package OOP.VendingMachine.Domen;
+package SeminarsOOP.VendingMachine.Domen;
 
 public class Product {
     private String name;

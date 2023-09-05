@@ -1,4 +1,4 @@
-package OOP.VendingMachine;
+package SeminarsOOP.VendingMachine;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

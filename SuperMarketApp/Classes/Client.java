@@ -1,4 +1,4 @@
-package OOP.SuperMarketApp.Classes;
+package SeminarsOOP.SuperMarketApp.Classes;
 
 public class Client {
     /**

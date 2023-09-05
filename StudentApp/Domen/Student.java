@@ -1,4 +1,4 @@
-package OOP.StudentApp.Domen;
+package SeminarsOOP.StudentApp.Domen;
 
 public class Student extends Person implements Comparable<Student> {
 

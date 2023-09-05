@@ -1,4 +1,4 @@
-package OOP.VendingMachine.Services;
+package SeminarsOOP.VendingMachine.Services;
 
 public class CoinDispenser {
     private int nominal;

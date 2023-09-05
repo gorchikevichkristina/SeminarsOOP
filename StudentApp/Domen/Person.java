@@ -1,4 +1,4 @@
-package OOP.StudentApp.Domen;
+package SeminarsOOP.StudentApp.Domen;
 
 public abstract class Person {
     private String name;

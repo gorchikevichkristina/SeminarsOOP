@@ -1,8 +1,8 @@
-package OOP.SuperMarketApp.Interfaces;
+package SeminarsOOP.SuperMarketApp.Interfaces;
 
 import java.util.List;
 
-import OOP.SuperMarketApp.Classes.Actor;
+import SeminarsOOP.SuperMarketApp.Classes.Actor;
 
 public interface iMarketBehaviour {
 

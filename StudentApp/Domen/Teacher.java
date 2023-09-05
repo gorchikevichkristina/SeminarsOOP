@@ -1,4 +1,4 @@
-package OOP.StudentApp.Domen;
+package SeminarsOOP.StudentApp.Domen;
 
 public class Teacher extends Person {
     private String acadDegree;

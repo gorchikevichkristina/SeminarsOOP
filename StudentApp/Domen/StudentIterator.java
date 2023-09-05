@@ -1,4 +1,4 @@
-package OOP.StudentApp.Domen;
+package SeminarsOOP.StudentApp.Domen;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,6 +1,6 @@
-package OOP.SuperMarketApp.Classes;
+package SeminarsOOP.SuperMarketApp.Classes;
 
-import OOP.SuperMarketApp.Interfaces.iActorBehaviour;
+import SeminarsOOP.SuperMarketApp.Interfaces.iActorBehaviour;
 
 public class TaxInspector implements iActorBehaviour {
 
